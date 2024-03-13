@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #0000a3;
+  --secondary-color: #f0f0f0;
+  --line-color: #e8ebec;
+  --button-hover: #3e8e41;
+  --footer-color: #6351ce;
+}
+
+.card-border {
+  border: none;
+}
+
+.button:hover {
+  background-color: var(--button-hover);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+footer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: var(--footer-color);
+  color: white;
+}
+
+a {
+  color: yellow;
+}
+
+.email {
+  color: var(--primary-color);
+}
+
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-family: poppins-regular;
+}
+
+p {
+  font-family: roboto-regular;
+}
